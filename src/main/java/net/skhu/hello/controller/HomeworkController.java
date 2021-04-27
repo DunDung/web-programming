@@ -1,5 +1,7 @@
 package net.skhu.hello.controller;
 
+import com.sun.org.apache.xpath.internal.operations.Mod;
+import net.skhu.hello.Student;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -31,4 +33,5 @@ public class HomeworkController {
         model.addAttribute("num", num);
         return "homework/test2";
     }
+
 }
